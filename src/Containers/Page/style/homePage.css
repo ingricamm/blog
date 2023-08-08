@@ -1,0 +1,133 @@
+.home-container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: calc(8px + 1.5vmin);
+  
+}
+
+
+.home-header-content {
+    height:540px;
+    align-items:center;
+    text-align: center;
+    background-image: linear-gradient(
+      to bottom,
+      rgba(10, 10, 10, 0.363),
+      rgba(0, 4, 255, 0)),url("Components/img/style/fondo_1.jpeg");
+    background-attachment: fixed;
+    background-position: right;
+    background-size: cover;
+    color: white;
+    width: 100%;
+  	
+}
+  
+  .home-header-content .Autor{
+    min-height: 220px;
+   align-content:center;
+   margin: calc(30vh - 100px)  auto ;
+    padding: 0.5rem;
+    background-color: #d6d6d656;
+    max-width: 700px;
+    position:relative;
+  
+    
+    
+  
+  }
+
+  .home-header-content .Autor img{   
+   width: 500px;
+  }
+
+    /*--- Main ---*/
+  
+  /*--- About in home page ---*/
+  
+  
+  .main-content{
+    width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+
+  }
+   .home-main-content{
+    align-items:  center;
+    justify-content: center;
+   
+    display: flex;
+    justify-content: center;
+  }
+
+  .home-main-content h2 {
+    width: initial;
+   padding-bottom: 20px;
+   padding-top: 20px;
+  }
+  /* ---profile photo in a circle ---*/
+
+
+  .App-about{
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+   
+  }
+  .App-about h2, h3{
+
+    font-family: cursive;
+  }
+  @media screen and (max-width: 1500px) {
+    
+
+  }
+
+   .home-main-content .App-about{
+    margin: 3em;
+    padding: auto;
+    text-align: center;
+   
+    
+  }
+ 
+  
+
+ 
+   @media screen and (max-width: 800px) {
+   
+    
+    .home-container{
+        grid-template-rows: calc(100%*1/5) 1fr max-content;
+        background-attachment: fixed;
+        background-position:  center;
+         display: flex;
+        border-radius: 0 0 0% 0% ;
+
+    }
+
+    
+    .home-header-content {
+      height:350px;
+      align-items: center;
+   }
+
+   
+   .home-main-content{
+    margin-top: 200px;
+   }
+   .home-header-content .Autor{
+ 
+    margin: calc(65vh - 100px)  auto ;
+  
+   }
+   .home-main-content .App-about{
+    margin: 1em;
+      
+  }
+ 
+  }
+

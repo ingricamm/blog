@@ -1,0 +1,78 @@
+.footer {
+    background-color: rgb(242, 237, 240);
+    color: rgb(0, 0, 0);
+    max-width: 100%;
+    font-size: 16px;
+    padding: 5px;
+  }
+
+
+.App-footer {
+    margin:1rem ;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    
+  }
+.App-footer img{
+  width: 250px;
+}
+  .App-footer ul{
+   
+     display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    justify-content: space-evenly;
+    list-style: none;
+    margin:20px 10px;
+    
+    text-decoration: none;
+   
+    }
+.App-footer .ppal-footer{
+   min-width: 70%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+  
+}
+  .App-footer a, .footer-content a{
+    margin:15px;
+    text-decoration: none;
+    color: rgb(50, 50, 50);
+  }
+  .App-footer a:hover, .footer-content a:hover{
+    text-decoration:underline;
+    color: rgb(136, 136, 136);
+  }
+  .App-footer p {
+    font-weight: 500;
+    
+    
+  }
+
+  .icons{
+    border-top: 1px solid rgb(171, 171, 171);
+    margin: 0 5rem;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+ 
+  }
+.App-footer-content{
+  
+  color: rgb(37, 37, 37);
+  font-size: 10px;
+  font-weight:500;
+}
+@media screen and (max-width: 800px) {
+  .App-footer {
+    margin:1rem ;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,44 @@
+.card-panel{
+  max-width: 100%;
+  text-align: center;
+  min-height: 350px;
+  margin: 2rem 1rem;
+ background-color: white; 
+  
+  
+}
+
+.Cards{
+    align-items: center;
+    min-height: 10rem;
+    padding:2% 10px;
+    max-width: 100%;
+
+  }
+  
+  .Cards li {
+    
+    border-radius: 5px;
+    display: inline-block !important;
+    justify-content: space-between;
+    padding: 50px  auto;
+  
+  }
+  
+
+  @media screen and (min-width: 1800px) {
+    .card-panel{
+      
+      min-height: 650px;
+      
+    }
+
+    .Cards{
+      align-items: center;
+      min-height: 15rem;
+      padding:2% 10px;
+      max-width: 100%;
+  
+    }
+  
+  }

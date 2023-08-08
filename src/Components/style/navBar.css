@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box !important;
+}
+.navBar  {
+  max-width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  top: 0;
+  padding:auto; 
+  background-color: rgb(242, 237, 240);
+}
+
+.navBar , .ppal {
+  max-width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.App-Navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: calc(8px + 1.5vmin);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: auto;
+  position: relative;
+  max-width: 100%;
+}
+
+.navBar .logo {
+  padding: 5px;
+  
+}
+
+.navBar .logo img{
+   padding: 5px;
+  width:100px ;
+ 
+}
+.navBar button {
+ background-color:#e5e7eb00;
+  border: none;
+  width: 50px;
+
+}
+
+
+.navBar ul {
+  list-style-type: none;
+   height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  margin-right: 20px;
+}
+.navBar ul li {
+  display: inline;
+  padding: 1vw;
+  
+}
+
+.navBar a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 470;
+}
+.navBar  a:hover,
+.navBar ul li button i:hover {
+  color: rgba(57, 56, 56, 0.486);
+  
+  /* text-decoration: underline; */
+}
+
+.burger-Btn {
+  margin-right: 10px;
+  display: none;
+  right: 10px;
+  top:15px;
+  padding: 5px;
+ color: rgb(64, 64, 64);
+  
+}
+/*----RESPONSIVE DESING--*/
+
+@media screen and (max-width: 600px) {
+  .navBar{
+    padding: 1vw;
+    display: flex;
+    flex-direction: column;
+    justify-content:initial;
+    
+  }
+  .App-Navbar {
+    width: 100%;
+    transition: right 0.3s linear;
+  
+  }
+
+  .App-Navbar ul {
+    border-top: 1px solid rgb(160, 160, 160);
+    
+    flex-direction: column;
+    justify-content:end;
+    margin:0 10vw ;
+    width: 100%;
+    background-color: #f1f1f1;
+  }
+  .App-Navbar li:nth-child(1) {
+   
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .App-Navbar ul li {
+    width: 100%;
+   
+    text-align: center;
+    padding: 10px 0;
+    
+  }
+  .burger-Btn {
+    display: block;
+    font-size: calc(20px + 1.5vmin);
+  }
+}

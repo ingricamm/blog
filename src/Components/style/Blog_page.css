@@ -1,0 +1,46 @@
+.blog-post{
+    min-height: 410px;
+    margin: 2rem;
+  
+}
+.blog-post .description{
+    display: flex;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+}
+.categorias {
+padding-top: 1rem;
+
+}
+.category_list{
+
+    margin:20px auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+  justify-content: center;
+
+}
+.category-card{
+    width: 150px;
+    height: 250px;
+    border: solid 1px #fccaef;
+    border-radius: 5px;
+    margin:5px;
+    display: flex;
+    flex-direction: column;
+}
+.category-card  img{
+
+   height: 200px;
+    
+}
+
+.category-card:hover {
+ 
+    box-shadow:  0 0 5px 0 #f993c9;
+  }
+
+

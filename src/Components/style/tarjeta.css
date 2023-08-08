@@ -1,0 +1,35 @@
+.tarjeta {
+  max-width: 250px;
+  height: 300px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: 1px solid #53535335;
+  margin: 10px;
+  padding: auto;
+  align-content: center;
+  padding: auto;
+}
+
+/* --- imagen del tamaño de su contenedor---*/
+@supports (object-fit: cover) {
+  .tarjeta .tarjeta-media img {
+    border-radius: 10px;
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center left;
+  }
+}
+@media screen and (max-width: 850px) {
+  .tarjeta .tarjeta-media img {
+    height: 200px;
+  }
+
+  .tarjeta {
+    height: 200px;
+  }
+}
+@media screen and (max-width: 850px) {
+
+  
+}
